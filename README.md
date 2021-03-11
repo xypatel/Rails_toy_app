@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Toy App
 
-Things you may want to cover:
+### Rails Version 6.1.3
 
-* Ruby version
+### Heroku Deployement
 
-* System dependencies
+`heroku create`
 
-* Configuration
+`git push heroku master`
 
-* Database creation
+If you get could not build bundle error when trying to deploy to heroku:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`bundle lock --add-platform x86_64-linux`
