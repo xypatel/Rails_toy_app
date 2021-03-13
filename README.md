@@ -4,6 +4,10 @@
 
 ### Rails Version 6.1.3
 
+To update Database:
+
+`rails db:migrate`
+
 ### Heroku Deployement
 
 `heroku create`
