@@ -17,3 +17,7 @@ To update Database:
 If you get could not build bundle error when trying to deploy to heroku:
 
 `bundle lock --add-platform x86_64-linux`
+
+If you get “We're sorry, but something went wrong” after deployement:
+
+Migrate Database: `heroku run rake db:migrate`
